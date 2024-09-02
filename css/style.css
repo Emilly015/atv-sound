@@ -60,7 +60,29 @@ a{
 main{
 	margin: 5vw 10vw 5vw 10vw;
 }
-
+/*==================
+    TOPO
+==================*/
+header {
+	margin: 5vw 5vw 5vw 5vw;
+}
+header nav ul{
+	display: flex;
+	justify-content: right;
+}
+header nav ul li {
+	margin: 0 20px 0 10px;
+	padding: 0vw 1vw 5vw 0.5vw;
+}
+/*==================
+     CONTEÚDO
+==================*/
+main.soundtrack section{
+	display: flex;
+}
+main.soundtrack section div h1{
+	padding: 4vw 4vw 3vw 11vw;
+}
 /*==================
      FOOTER
 ==================*/
